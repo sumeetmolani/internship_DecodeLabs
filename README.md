@@ -68,5 +68,5 @@ By completing these tasks, I produced a **100% complete, cleaned dataset** (`Cle
    pip install pandas openpyxl matplotlib seaborn
    ```
 3. Update the file path in the scripts to match your local directory.
-4. Run the tasks sequentially: `task1.py`, `task2.py`.
+4. Run the tasks sequentially: `Data Cleaning & Preprocessing.py`, `Data Collection & Dataset Underst.py`, `Data Collection & Dataset Underst.py`.
 
