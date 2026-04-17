@@ -25,7 +25,7 @@ The journey progressed through four critical stages of the data lifecycle:
 ### **Task 2: Data Cleaning & Preprocessing**
 * **Goal:** Prepare the raw dataset for reliable analysis by managing data quality.
 * **Duplicate Handling:** Verified the dataset and removed redundant entries to prevent skewed results.
-* **Missing Values:** Addressed a critical gap of **309 missing values** in the `CouponCode` column. These were categorized as "Non-Coupon Transactions" using "Unknown" placeholders to ensure they weren't excluded from the analysis.
+* **Missing Values:** Addressed a critical gap of **309 missing values** in the `CouponCode` column. These were categorised as "Non-Coupon Transactions" using "Unknown" placeholders to ensure they weren't excluded from the analysis.
 * **Formatting:** Standardised the `Date` column into proper Python `datetime` objects to enable future time-series analysis.
 
 ### **Task 3 & 4: EDA & Data Visualization**
@@ -42,22 +42,22 @@ By completing these tasks, I produced a **100% complete, cleaned dataset** (`Cle
 ## 📸 Screenshots
 
 ### Task 1 — Dataset Structure & Column Info
-![Dataset Info](screenshots/task1_dataset_info.png)
+![image alt](https://github.com/sumeetmolani/internship_DecodeLabs/blob/3ee05f3a93dd1980b0cdcf8a816f4ee12aab23de/task1_dataset_info.png.png)
 
 ### Task 1 — Statistical Summary & Missing Values
-![Statistical Summary](screenshots/task1_statistical_summary.png)
+![image alt](https://github.com/sumeetmolani/internship_DecodeLabs/blob/3ee05f3a93dd1980b0cdcf8a816f4ee12aab23de/task1_statistical_summary.png.png)
 
 ### Task 2 — Data Cleaning Output
-![Data Cleaning](screenshots/task2_cleaning_output.png)
+![image alt](https://github.com/sumeetmolani/internship_DecodeLabs/blob/3ee05f3a93dd1980b0cdcf8a816f4ee12aab23de/task2_cleaning_output.png.png)
 
 ### Task 3 & 4 — Bar Chart: Total Revenue by Product
-![Bar Chart](screenshots/task3_bar_chart.png)
+![image alt](https://github.com/sumeetmolani/internship_DecodeLabs/blob/3ee05f3a93dd1980b0cdcf8a816f4ee12aab23de/task3_bar_chart.png.png)
 
 ### Task 3 & 4 — Line Chart: Daily Sales Trend
-![Line Chart](screenshots/task3_line_chart.png)
+![image alt](https://github.com/sumeetmolani/internship_DecodeLabs/blob/3ee05f3a93dd1980b0cdcf8a816f4ee12aab23de/task3_line_chart.png.png)
 
 ### Task 3 & 4 — Pie Chart: Distribution of Payment Methods
-![Pie Chart](screenshots/task3_pie_chart.png)
+![image alt](https://github.com/sumeetmolani/internship_DecodeLabs/blob/3ee05f3a93dd1980b0cdcf8a816f4ee12aab23de/task3_pie_chart.png.png)
 
 > 📌 *To display these on GitHub, create a `screenshots/` folder in your repo root and upload the images with the filenames shown above.*
 
@@ -68,7 +68,5 @@ By completing these tasks, I produced a **100% complete, cleaned dataset** (`Cle
    pip install pandas openpyxl matplotlib seaborn
    ```
 3. Update the file path in the scripts to match your local directory.
-4. Run the tasks sequentially: `task1.py`, `task2.py`, etc.
+4. Run the tasks sequentially: `task1.py`, `task2.py`.
 
----
-> *"Your journey to becoming a professional developer begins right here, right now, with the very first line of code you write today."* — **DecodeLabs**
